@@ -1,0 +1,32 @@
+{
+  "name": "object-upload-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TyFangXV/object-upload-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TyFangXV/object-upload-cli/issues"
+  },
+  "homepage": "https://github.com/TyFangXV/object-upload-cli#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.245.0",
+    "aws-sdk": "^2.1291.0",
+    "chalk": "^5.2.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^6.0.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.1.4",
+    "minimist": "^1.2.7"
+  },
+  "type": "module"
+}
